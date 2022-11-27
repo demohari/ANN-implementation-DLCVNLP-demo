@@ -14,11 +14,5 @@ setup(
     author_email="kishore_koneru@yahoo.com",
     packages=["src"],
     python_requires=">=3.7",
-    install_requires=[
-        "tensorflow",
-        "matplotlib",
-        "seaborn",
-        "numpy",
-        "pandas"
-    ]
+    install_requires=["tensorflow", "matplotlib", "seaborn", "numpy", "pandas"],
 )
