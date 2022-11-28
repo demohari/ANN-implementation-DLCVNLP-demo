@@ -5,5 +5,4 @@ numpy
 pandas
 PyYAML
 
-## local package instalation
--e . ### <<< To install local packages defined in setup.py
+-e .
