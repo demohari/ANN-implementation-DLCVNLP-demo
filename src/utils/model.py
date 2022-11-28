@@ -18,7 +18,7 @@ def create_model(LOSS_FUNCTION, OPTIMIZER, METRICS, NUM_CLASSES):
 
     model_clf.compile(loss=LOSS_FUNCTION, optimizer=OPTIMIZER, metrics=METRICS)
 
-    return model_clf  ## <<< untrained model
+    return model_clf  # <<< untrained model
 
 
 def get_unique_filename(filename):
